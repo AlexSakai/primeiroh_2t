@@ -1,52 +1,52 @@
 body {
-  background-color: rgb(187, 187, 185)
+  background-color: rgb(216, 226, 197)
 }
 h1 {
   text-align: center;
 }
 .menuPrincipal {
-   position: absolute;
+   position: relative;
    top: 0;
    left: 0;
    width: 100%;
-   height: 45px;
-   background: rgb(37, 54, 41);
+   height: 70px;
+   background:rgb(137, 116, 151);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-nav ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: 0;
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
 }
 li {
   float: left;
 }
-li a {
+li a{
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(238, 247, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 30px;
   text-decoration: none;
 }
 li a:hover {
-   color: black;
-   background: rgb(156, 228, 212);
+  color:rgb(61, 48, 70);
+  background: rgb(178, 197, 218);
 }
-#aguia {
-  width: 15%;
-}
-.caixaAguia {
+.rodape {
   position: absolute;
-  top: 45px;
-  left: 0;
-  width: 90%;
-  height: 155px;
-  background: rgb(170, 201, 211);
-  margin: 20px;
-  border-width: 20px;
-  border-color: blue;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background: rgb(137, 116, 151);
+  color: blanchedalmond;
   justify-content: center;
+  display: flex;
+}
+#metallica {
+  width: 25%;
+  top: 60px;
+  right: 38%;
+  position: absolute;
+  justify-content: center;
+}
