@@ -1,1 +1,1 @@
-#Alexandre Gomes Sakai, 1ºH, N.º01.
+Alexandre Gomes Sakai, 1ºH, N.º01.
